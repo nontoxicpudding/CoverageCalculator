@@ -1,3 +1,4 @@
+@selenium
 Feature: Coverage Calulator
 	This is needed to determine the coverage amount based on the coverage and limit selected.
 
@@ -28,3 +29,4 @@ Scenario: User asks for the coverage amount to be calculated but hasn't selected
 	Given the user asks for the coverage amount to be calculated
 	And the user hasn't selected a <coverageLimit>
 	Then an error must be displayed
+	
